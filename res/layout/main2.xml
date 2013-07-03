@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mylayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:background = "@drawable/play_bg">
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical" 
+    	android:layout_weight="1">
+    	<Button
+        	android:id = "@+id/btn1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/Pause"/>
+    
+    	<Button
+        	android:id = "@+id/btn2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/Restart"/>
+    	
+    	<TextView
+    	    android:id="@+id/dispitch"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/title"/>
+    	
+    	<TextView
+    	    android:id="@+id/disscore"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/title"/>
+    	
+    	<TextView
+    	    android:id="@+id/lyrics"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/title"/>
+
+    	<org.ece420.FinalProject.ScrollTextView
+    	    android:id="@+id/scrolltext"
+    		android:layout_width="240dp"
+    		android:layout_height="wrap_content"/>
+    	
+    	<TextView
+        	android:id="@+id/txtDisplay"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/title" />
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical" 
+    	android:layout_weight = "2">
+    	<ImageView
+        	android:id="@+id/imageView1"
+        	android:contentDescription="@string/desc"
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"/>
+    </LinearLayout>    
+</LinearLayout>

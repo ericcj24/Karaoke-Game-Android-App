@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mylayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background = "@drawable/finish_bg" >
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        />
+
+     <ImageView
+         android:id="@+id/imageViewLast"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/congrats" 
+         android:layout_centerHorizontal="true"
+         android:paddingBottom="110sp"
+         android:paddingTop="10sp" />
+       
+        
+    <TextView
+    	    android:id="@+id/disfinalscore"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#000000"
+        	android:text="@string/title"
+        	android:textSize="26sp"
+        	android:layout_centerHorizontal="true"
+        	android:layout_below="@id/imageViewLast"/>
+    
+    <Button
+        android:id = "@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Play_Again"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/disfinalscore" /> 
+ 
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="desc">ECE420 Final Project</string>
+    <string name="app_name">Karaoke Game</string>
+    <string name="Start">Start</string>
+    <string name="title">ECE420 Final Project Karaoke Game</string>
+    <string name="Say_Hello">click me</string>
+    <string name="Play_Again">Play Again</string>
+    <string name="Pause">Pause</string>
+	<string name="Restart">Restart</string>
+	<string name="End_Game">End Game</string>
+	<string name="Resume">Resume</string>
+	<string name="Credit">credit</string>
+	<string name="Author">Jian Chen and Wei Hu \nspecial thanks to David, Daniel and Trong\nInstructor: Prof Minh N.Do</string>
+    
+    
+</resources>

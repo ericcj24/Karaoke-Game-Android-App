@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/armeabi-v7a
+directory /Users/jianchen/NVPACK/android-ndk-r8d/platforms/android-14/arch-arm/usr/include jni /Users/jianchen/NVPACK/android-ndk-r8d/sources/cxx-stl/gnu-libstdc++ jni/fftw3/include

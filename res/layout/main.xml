@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background = "@drawable/main_pic">
+
+
+    <TextView
+        android:id = "@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_gravity="top|left"
+        />
+    
+    
+    
+    <Button
+        android:id = "@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Start"
+        android:layout_centerHorizontal="true"
+        />
+        
+    <Button
+        android:id = "@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Say_Hello"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn1"
+	/>
+    
+    <Button
+        android:id = "@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Credit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn2"
+	/>
+
+
+</RelativeLayout>
